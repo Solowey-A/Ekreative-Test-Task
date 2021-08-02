@@ -1,2 +1,2 @@
-# Ekreative-Test-Task
+#Lektorium-Test-Task
 Test task
