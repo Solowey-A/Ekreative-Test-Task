@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-container">
+    <div class="form-container">
+        <h2 class="form-headline">Stackfindover</h2>
+
+        <form action="" method="post" class="subscribe-form">
+            <p class="form-description"> Sign in to your account</p>
+
+            <div class="email-group">
+                <label for="email" class="label">Email</label>
+                <input type="email" class="email" id="email">
+            </div>
+
+            <div class="password-group">
+                <div class="forgot-wrapper">
+                    <label for="password" class="label">Password</label>
+                    <a href="https://google.com" class="form-link">Forgot your password?</a>
+                </div>
+                <input type="password" class="password" id="password">
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="signed">
+                <label for="signed" class="checkbox-label">Stay signed in for a week</label>
+            </div>
+
+            <button type="submit" class="submit-button" disabled>Continue</button>
+            <a href="https://www.google.com.ua/maps/" class="form-link sign-in-google">Use single sign-on (Google) instead</a>
+        </form>
+
+        <p class="sign-up">Don't have an account? <a href="https://www.facebook.com" class="form-link">Sign up</a></p>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

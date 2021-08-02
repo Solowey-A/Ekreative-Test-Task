@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+}
+
+input {
+    cursor: pointer;
+}
+.page-container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 390px;
+    width: 100%;
+    margin: 0 auto;
+}
+.form-headline {
+    font-size: 26px;
+    text-align: center;
+    color: #5A6ECE;
+    font-weight: 700;
+}
+
+.form-link {
+    color: #5A6ECE;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.sign-in-google {
+    margin: 0 auto;
+}
+
+.subscribe-form {
+    box-shadow: 0 10px 8px 5px #dedede;
+    padding: 40px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.checkbox-group {
+    margin-bottom: 25px;
+}
+.checkbox-label {
+    font-weight: 700;
+}
+.forgot-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.email, .password {
+    height: 38px;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    background-color: transparent;
+    position: relative;
+    margin-bottom: 25px;
+    border: 1px solid #dedede;
+    border-radius: 3px;
+}
+
+.submit-button {
+    width: 100%;
+    color: #fff;
+    background-color: #5A6ECE;
+    border: 1px solid #5A6ECE;
+    border-radius: 3px;
+    padding: 10px 0;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.submit-button:disabled {
+    opacity: .5;
+}
+.sign-up {
+    text-align: center;
+}
+
+.email:focus, .password:focus {
+    border-color: #5A6ECE;
+}
+
+.failure, .failure:focus {
+    border: 1px solid red;
+}
+.success, .success:focus {
+    border: 1px solid green;
+}
